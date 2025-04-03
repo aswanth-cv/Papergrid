@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid colors">
+            <div class="pad text-white text-center">
+                <p>FREE SHIPPING IN ALL ORDER</p>
+            </div>
+        </div>
+
+       <div class="container-fluid colors">
+        <div  id="nav-bar">
+            <div id="left-section">
+                <img src="180907_-_Logo_c4a7a6be-2a96-4142-a13b-1b2c05934a4e.avif" alt="">
+                <div class="nav-links">
+                    <a href="" class="hove">Home</a>
+                    <a href="" class="hove">About us</a>
+                    <a href="" class="hove">Catlog</a>
+                    <a href="" class="hove">Track</a>
+                </div>
+            </div>
+
+            <div id="right-section">
+                <div id="user">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="navbar-toggle-btn">
+                    <i class="fa-solid fa-bars navbar-toggle-icon"></i>
+                </div>
+            </div>
+        </div>
+       </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="180907_-_Logo_c4a7a6be-2a96-4142-a13b-1b2c05934a4e.avif" alt="">
+        </div>
+        <div class="sidebar-links">
+            <a href="" class="hove">Home</a>
+            <a href="" class="hove">About us</a>
+            <a href="" class="hove">Catlog</a>
+            <a href="" class="hove">Track</a>
+        </div>
+    </div>
+
+
+    
+    <div id="fix">
+        <div class="container-fluid">
+            <div class="row ">
+                <div id="image-1" class="img col-6 col-lg-4 ">
+                    <img src="1.webp" alt="" class="img-fluid">
+                </div>
+                <div id="image-2" class="img col-6 col-lg-4 ">
+                    <img src="1.webp " alt="" class="img-fluid">
+                </div>
+                <div id="image-3" class="img col-6 col-lg-4">
+                    <img src="2.webp" alt="" class="img-fluid">
+                </div>
+                <div id="image-4" class="img col-6 col-lg-4">
+                    <img src="3A.webp" alt="" class="img-fluid">
+        
+                </div>
+                <div id="image-5" class="img col-6 col-lg-4">
+                    <img src="4.webp" alt="" class="img-fluid">
+        
+                </div>
+                <div id="image-6" class="img col-6 col-lg-4">
+                    <img src="5.webp" alt="" class="img-fluid">
+                </div>
+                <div id="image-7" class="img col-6 col-lg-4">
+                    <img src="img2.webp" alt="" class="img-fluid">
+                </div>
+                <div id="image-8" class="img col-6 col-lg-4">
+                    <img src="img.webp" alt="" class="img-fluid">
+                </div>
+
+                <div id="image-9" class="img col-6 col-lg-4">
+                    <img src="img3..webp" alt="" class="img-fluid">
+                </div>
+
+                
+
+                
+            </div>
+
+            
+        
+            </div>
+    
+        </div>
+    </div>
+
+    <div id="about-founder">
+        <div id="founder-img" >
+            <img src="1A.webp" alt="">
+        </div>
+        <div id="about">
+           <p class="intro">A Note From Our Founder</p>
+           <p class="short-note">Rohil Sethi, Founder & MD of Papergrid Industries</p>
+           <p class="about-us">About Us</p>
+
+        </div>
+    </div>
+
+
+    <footer>
+
+        <div id="footer-section1">
+           <p class="top"> Contact Us</p>
+            <p><u>+91-9830933754</u></p>
+
+            <p><u>+91-8041644555</u></p>
+
+            <p><u>commerce@papergrid.in</u>e</p>
+
+            
+        </div>
+
+        <div id="last-section">
+            <a href="">© 2025, Papergrid Industries Powered by Shopify</a>
+                <a href="">Refund policy</a>
+                <a href="">Privacy policy</a>
+                <a href="">Shipping policy</a>
+                <a href="">Contact information</a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var toggleBtn = document.querySelector('.navbar-toggle-btn');
+        var sidebar = document.querySelector('.sidebar');
+        var toggleicn = document.querySelector('.navbar-toggle-icon');
+
+toggleBtn.addEventListener('click', (event) => {
+    if (sidebar.classList.contains('sidebar-expand')) {
+        sidebar.classList.remove('sidebar-expand');
+        toggleicn.classList.remove('fa-xmark');
+        toggleicn.classList.add('fa-bars');
+    } else {
+        sidebar.classList.add('sidebar-expand');
+        toggleicn.classList.remove('fa-bars');
+        toggleicn.classList.add('fa-xmark');
+    }
+});
+
+            
+            
+            </script>
+</body>
+</html>
